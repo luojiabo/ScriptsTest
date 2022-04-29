@@ -11,3 +11,9 @@ public interface IRefCounter {
     // 为零时的操作
     void OnRefZero();
 }
+
+public class RefCounter:IRefCounter
+{
+    public int refCount{get;privte  set  }
+    
+}
